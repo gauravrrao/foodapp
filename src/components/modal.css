@@ -1,0 +1,59 @@
+.modal-container{
+    padding: 3rem;
+    max-width: 600px;
+    width:100%;
+    position: fixed;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    background-color: #ffffff;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+}
+.modahead{
+    display: flex;
+}
+.item{
+    margin-top: 2rem;
+   
+}
+.rekha{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.checkout{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.total{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+}
+
+.s1{
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    background-color: blue;
+    margin-left: 5rem;
+}
+.s2{
+    border: none;
+    padding: 0.5rem;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.taken{
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    
+}

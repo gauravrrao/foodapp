@@ -1,0 +1,40 @@
+.card{
+    background-color: whitesmoke;
+    width: 15rem;
+    padding: 1rem;
+    border: 2px solid black;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+.image{
+    width:14rem;
+}
+.mp{
+   padding: 0.5rem;
+}
+.menu-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.mbtn2{
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.mbtn{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.mbtn:hover{
+    cursor: pointer;
+}
+.mbtn2:hover{
+    cursor: pointer;
+}
+.card{}

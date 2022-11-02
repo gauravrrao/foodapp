@@ -1,0 +1,12 @@
+.check{
+    margin-top: 2rem;
+    margin-left: 20%;
+    width:60%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(226, 224, 224);
+    padding-top: 0.5rem;
+    align-items: center;
+}
