@@ -16,7 +16,7 @@ const Cart = () => {
  }
  let hollow=(cur)=>{
   setopenmodel(true)
-  setmedit([...medit,cur])
+  setmedit([...medit,{...cur,quantity:1}])
  }
  
 

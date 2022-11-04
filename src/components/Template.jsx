@@ -11,7 +11,7 @@ const [show, setshow] = useState(Feeds)
 const {cart,setcart} = useContext(appreactor)
 
 let follow=(cur)=>{
-  setcart([...cart,cur])
+  setcart([...cart,{...cur,v : 1}])
 }
   return (
     <div className='menu-body'>
